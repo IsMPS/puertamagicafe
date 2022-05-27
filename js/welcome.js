@@ -1,7 +1,7 @@
 $(document).ready(function(){
         
     $.ajax({
-        url:'https://localhost:5001/Alumno/All',
+        url:'https://localhost:44367/Alumno/All',
         type:'get',
         contentType:"application/json; charset=utf-8",
         success:function(response){

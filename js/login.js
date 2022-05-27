@@ -7,9 +7,9 @@ $(document).ready(function(){
 
         if( username != "" && password != "" ){
             $.ajax({
-                url:'https://localhost:5001/Alumno/Login',
+                url:'https://localhost:44367/User/Login',
                 type:'post',
-                data:JSON.stringify({email:username,password:password}),
+                data:JSON.stringify({user:username,password:password}),
                 contentType:"application/json; charset=utf-8",
                 success:function(response){
                     
